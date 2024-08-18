@@ -22,6 +22,9 @@ const Footer = () => {
         <FontAwesomeIcon icon={faCopyright} className='w-6 h-6 mx-2' />
         2024 CaturDev.
       </p>
+      <p className='flex justify-center items-center text-center'>
+        Website ini masih dalam pengembangan dan penyempurnaan lebih lanjut.
+      </p>
     </footer>
   );
 };
