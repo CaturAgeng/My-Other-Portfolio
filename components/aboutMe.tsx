@@ -41,7 +41,7 @@ const AboutMe: React.FC = () => {
       <h2 className="text-gray-200 text-2xl sm:text-3xl md:text-4xl">About Me</h2>
       <hr className="opacity-50 my-4 w-1/2 sm:w-1/3 md:w-1/4" />
       <p className="text-gray-200 text-justify text-sm sm:text-base md:text-lg">
-        I am a fresh graduate majoring in electrical engineering and I am a career switcher. After graduating from college, I studied aircraft maintenance for 18 months. I tried something new by starting the Full Stack Software Engineer (FSSE) program organized by RevoU. While studying in the Full Stack Software Engineer program, I learned a lot about the tools used by a Software Engineer, such as Javascript, Typescript, React, Next.js, MySQL, and Python, Flask. I am confident that I can help companies achieve their business goals more effectively with my skills and dedication. I am very interested in working in a Frontend Engineer position, where I can leverage my technical skills to create intuitive and engaging user interfaces.
+        I am a fresh graduate majoring in electrical engineering and I am a career switcher. I tried something new by starting the Full Stack Software Engineer (FSSE) program organized by RevoU. While studying in the Full Stack Software Engineer program, I learned a lot about the tools used by a Software Engineer, such as Javascript, Typescript, React, Vite, Next.js, MySQL, and Python, Flask. I am confident that I can help companies achieve their business goals more effectively with my skills and dedication. I am very interested in working in a Frontend Engineer position, where I can leverage my technical skills to create intuitive and engaging user interfaces.
       </p>
       <a 
         href="/resume.pdf"
