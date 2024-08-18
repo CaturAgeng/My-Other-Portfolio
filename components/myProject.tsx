@@ -71,7 +71,7 @@ const MyProject = () => {
               <Image src={project.image} alt={project.title} className='rounded-lg mb-4' />
               <div className='flex justify-center'>
                 {project.technologies.map((tech, techIndex) => (
-                  <div className='flex my-2 mx-2'>
+                  <div key={techIndex} className='flex my-2 mx-2'>
                     <Image key={techIndex} src={tech} alt='Tech Logo' className='rounded w-12 h-12 justify-center text-center' />
                   </div>
                 ))}
