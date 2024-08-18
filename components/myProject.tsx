@@ -15,6 +15,8 @@ import Flask from '@/public/images/Flask.png';
 import TailwindCSS from '@/public/images/TailwindCSS.png';
 import MySQL from '@/public/images/MySQL.png';
 import Supabase from '@/public/images/Supabase.png';
+import WeRent from '@/public/images/WeRent.png';
+import Postgresql from '@/public/images/Postgresql.png';
 
 
 const MyProject = () => {
@@ -42,6 +44,12 @@ const MyProject = () => {
       image: ToDoApp, 
       technologies: [TS, ReactLogo, Nextjs, Supabase],
       description: "ToDo-App merupakan aplikasi sederhana yang dibangun dengan menerapkan konsep dari CRUD. ToDo-App menawarkan pengguna untuk dapat membuat daftar kegiatan yang ingin dilakukan, mengedit daftar yang telah dibuat dan menghapus daftar kegiatan yang telah selesai dilakukan." 
+    },
+    { 
+      title: "WeRent-App", 
+      image: WeRent, 
+      technologies: [TS, ReactLogo, Nextjs, Postgresql],
+      description: "WeRent adalah sebuah aplikasi sejenis E-Commerce yang berfokus pada jasa peminjaman pakaian. Dari tingginya kebutuhan user dalam menggunakan pakaian yang hanya digunakan dalam momen-momen tertentu, jasa peminjaman pakaian kini banyak diminati dan untuk memudahkan user dalam bertransaksi serta memilih jasa, kami merancang sebuah aplikasi yang bernama WeRent." 
     },
   ];
 
