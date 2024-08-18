@@ -43,7 +43,7 @@ const Contact: React.FC = () => {
         </p>
       </div>
       <br />
-      <p className='mb-2'>Let's get in touch. Send me a message:</p>
+      <p className='mb-2'>{`It's a great day!`}</p>
 
       <form ref={form} onSubmit={sendEmail} className="w-full">
         <div className='space-y-4'>
